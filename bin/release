@@ -9,4 +9,5 @@ config_vars:
   RAILS_ENV: production
   JRUBY_OPTS: -J-Xmx400m
 default_process_types:
+  console: bundle exec rails console
 EOF
